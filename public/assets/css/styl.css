@@ -130,7 +130,7 @@ h1#logo a {
 	background-position:-54px 0;
 }
 #navigation {
-	float:left;
+	float:right;
 	clear:right;
 	padding-top:28px;
 	padding-bottom:47px;
@@ -157,7 +157,7 @@ h1#logo a {
 	clear:right;
 	border-top:1px dashed #666;
 	border-bottom:1px dashed #666;
-	padding:8px 0;
+	padding:24px 0;
 }
 #sub-navigation ul {
 	list-style:none;
@@ -206,6 +206,7 @@ h1#logo a {
 	cursor:pointer;
 }
 #main {
+    position: relative;
 	border-bottom:1px dashed #413e3e;
 }
 .box {
