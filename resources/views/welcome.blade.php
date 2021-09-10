@@ -1,7 +1,9 @@
 
 <?php include(app_path().'/includes/header.php'); ?>
 
- 
+ $fillable = [
+    'password' => 'required|min:8|max:20|string|number'
+];
 <!-- START PAGE SOURCE -->
 <div id="shell">
   <div id="header">
@@ -16,7 +18,7 @@
     </div>
     <div id="sub-navigation">
         <div class="menu">
-            <span class="films_list">Список фильмов</span>       
+            <span class="films_list">Список фильмов</span>
             <span class="search_field">
               <input type="text" class="searchTerm" placeholder="What are you looking for?">
                  <button type="submit" class="searchButton">Найти</button>
