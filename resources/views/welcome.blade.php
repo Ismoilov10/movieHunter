@@ -1,31 +1,7 @@
 
 <?php include(app_path().'/includes/header.php'); ?>
 
- 
-<!-- START PAGE SOURCE -->
-<div id="shell">
-  <div id="header">
-    <h1 id="logo"><a href="#">MovieHunter</a></h1>
-    <div class="social"> <span>FOLLOW US ON:</span>
-      <ul>
-        <li><a class="twitter" href="#">twitter</a></li>
-        <li><a class="facebook" href="#">facebook</a></li>
-        <li><a class="vimeo" href="#">vimeo</a></li>
-        <li><a class="rss" href="#">rss</a></li>
-      </ul>
-    </div>
-    <div id="sub-navigation">
-        <div class="menu">
-            <span class="films_list">Список фильмов</span>       
-            <span class="search_field">
-              <input type="text" class="searchTerm" placeholder="What are you looking for?">
-                 <button type="submit" class="searchButton">Найти</button>
-            </span>
-            <span class="films_cat">Категории фильмов</span>
 
-        </div>
-    </div>
-  </div>
   <div id="main">
     <div id="content">
       <div class="box">

@@ -1,0 +1,151 @@
+.auth_wrapper{
+    position: relative;
+    margin:0 auto;
+    margin-top: 130px;
+    width: 600px;
+    height: 80px;
+}
+.auth_changer{
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 100px;
+}
+.auth_changer div{
+    position: relative;
+    text-align: center;
+}
+.log_route{
+    float: left;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #f3f58a;
+}
+.reg_route{
+    float: right;
+    width: 300px;
+    height: 80px; 
+    line-height: 80px;
+    border-bottom: 0px solid #f3f58a;
+}
+.log_route_b{
+    color:#f3f58a;
+    font-size: 28px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.reg_route_b{
+    transform: skew( 0deg);
+    color:#f3f58a;
+    font-size: 28px;
+    font-family: monospace;
+    cursor: pointer;
+}
+.log_bar{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right:0;
+    margin: auto;
+    width: 600px;
+    height: auto;
+    display: block;
+}
+.log_lab{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 5px;
+}
+.log_lab p{
+    color:white;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+.log_lab input{
+    width: 100%;
+    height: 45px;
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    color: #f3f58a;
+}
+
+.btn_lab{
+    width: 604px;
+}
+.btn_lab .btn_log{
+    position: relative;
+    float: left;
+    width: 100%;
+    color:white;
+    cursor:pointer;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.reg_bar{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right:0;
+    margin: auto;
+    width: 600px;
+    height: auto;
+    display: none;
+}
+.reg_lab{
+    position: relative;
+    float: left;
+    width: 48.3%;
+    margin: 5px;
+    margin-left: 5px;
+
+}
+.reg_lab p{
+    color:white;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+.reg_mail{
+    width: 100%;
+}
+.reg_lab input{
+    width: 100%;
+    height: 45px;
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    color: #f3f58a;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+-webkit-appearance: none;
+}
+
+.btn_lab{
+    width: 604px;
+}
+.btn_lab .btn_reg{
+    position: relative;
+    float: left;
+    width: 100%;
+    color:white;
+    cursor:pointer;
+    font-size: 22px;
+    margin-top: 20px;
+}
