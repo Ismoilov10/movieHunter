@@ -1,9 +1,6 @@
 
 <?php include(app_path().'/includes/header.php'); ?>
 
- $fillable = [
-    'password' => 'required|min:8|max:20|string|number'
-];
 <!-- START PAGE SOURCE -->
 <div id="shell">
   <div id="header">
